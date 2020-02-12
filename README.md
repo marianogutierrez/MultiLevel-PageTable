@@ -13,4 +13,4 @@ or
 ```
 ./pagetable table_4_8_8.txt 4 5 6 
 ```
- i.e. first page is four bits (one hex digit) and so on. The program will report the bytes used for the table, and the percentages of hits and misses that vary depending on the decided size of the page table. There are some options too, -n # allows you to process only a few addresses, -p lets you write out output to another file, and -t shows you the logical to physical translation for the addresses (best done with a limited amount via -n to avoid to much output).
+ i.e. first page is four bits (one hex digit) and so on. The program will report the bytes used for the table, and the percentages of hits and misses that vary depending on the decided size of the page table. There are some options too, -n # allows you to process only a few addresses, -p lets you write out output to another file, and -t shows you the logical to physical translation for the addresses (best done with a limited amount via -n to avoid too much output).
